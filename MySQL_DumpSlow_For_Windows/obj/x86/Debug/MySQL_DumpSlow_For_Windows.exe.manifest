@@ -1,0 +1,1721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="MySQL_DumpSlow_For_Windows.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MySQL_DumpSlow_For_Windows" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MySQL_DumpSlow_For_Windows.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySQL_DumpSlow_For_Windows.exe" size="95232">
+      <assemblyIdentity name="MySQL_DumpSlow_For_Windows" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rgm6vvZa8MtZbykwwyPrN3CPCjA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="library\perl\bin\libeay32.dll" size="1143440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>URGetXCEOcFCxqEERRn/kIlOEtY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\libmysql.dll" size="1695888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iCY0+ox2NJgOYO40p6g5jo1vAjc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\nmake.exe" size="65536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2PLqfj+HlD4FXijgpUOn82ls1+I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\perl.exe" size="29400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zgj84BBRzxM2WNeEODZv0DCP+w0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\perl5.10.1.exe" size="29400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8BBAbgPtNqvyuTHNxgwxC2+RYGs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\perl510.dll" size="864912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6mMNum+V2o6WXuS0GuzCgD/Xn4E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\perlglob.exe" size="25232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RJIWPQlUQs3V9HZjQsBlCJtdTeQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\ssleay32.dll" size="213648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bGR9Fom/ckVnVl/f7eha/Rv5hAs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\bin\wperl.exe" size="29400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>U9khbZkbnrIAh+4ppygbHGWcePI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\attrs\attrs.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HRFacZoXR4wLJoLMIwX2no6NvF4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\B\B.dll" size="103056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JXYv1Psuo31bVlYinM9uggK6D7o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Compress\Raw\Bzip2\Bzip2.dll" size="74384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UvJP2NNO2TeitO77Ksm/1TQ15mo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Compress\Raw\Zlib\Zlib.dll" size="115344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TUOSbAthbnPMpHYMIQTr8TC0awo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Cwd\Cwd.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Yi4koYuB9mDThcQSLfYlON42wPM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Data\Dumper\Dumper.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>d+NjDwMcl67EPyymXaA8AGAxI30=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\DB_File\DB_File.dll" size="1360528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Hbt8z4vZVnAXCxX8VY2g816Ptpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Devel\DProf\DProf.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GDG/ZpUYVGHYxv2w4fJ7AqyuJ2g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Devel\Peek\Peek.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GR/bQ0czUNysTUBtmE+XDa8bLxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Devel\PPPort\PPPort.dll" size="98960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eVC5GV/+29f/mg2jR0I2J8VKS58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Digest\MD5\MD5.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IQ7tlE2zcksvSyBgjds/E1nKuO0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Digest\SHA\SHA.dll" size="62096">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N36wS/oOeITSCZpwjZ+2MwEqOCY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\Byte\Byte.dll" size="119440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>L6SEVLC4ul7xt/KqOMd9V7oVV+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\CN\CN.dll" size="737936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Wz/TW6KcyaH5oQFld48inGS2J8M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\EBCDIC\EBCDIC.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ANF5ICj9tzTk3DlIsFVMonF60aU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\Encode.dll" size="45712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eekGBBbFYQJY+kU5IeM/714nzGA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\JP\JP.dll" size="844432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cxncLtKqVWE/Yud4c+LpaV9OyX4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\KR\KR.dll" size="799376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TYDOP1wJK33PgLYi8tDNnT7ojio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\Symbol\Symbol.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xhWFRALJFGfvxiIXy4KQtZaLu9M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\TW\TW.dll" size="737936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DeztnR2XnpE2+b6/qYuDT0xXgIo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Encode\Unicode\Unicode.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oyrnzWpvt6qqpEo+PT3IIRuXIaI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Fcntl\Fcntl.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nRCo7JeBYCG0x7po3g1XcibdnPU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\File\Glob\Glob.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SZLpo/0vB11LZd/eNEef/S4CK+8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Filter\Util\Call\Call.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MoqLnvHWdBQPM1KaE+RmL5IGwAg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Hash\Util\FieldHash\FieldHash.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sHlP4mYhQdr+fhQMOTZzSeDNE68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Hash\Util\Util.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yYSAA5IAJstscOaGbMpdmHCix+8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\IO\IO.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RLqccM+maHjRNBIatdS7MxcjT4I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\List\Util\Util.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>c7UUKhIKWyc6GWltCy0j0KKB9Co=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Math\BigInt\FastCalc\FastCalc.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wG2DvODERXDTjBFloN3IBCzh9kg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\MIME\Base64\Base64.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+Gq57mFpGDq9b0+eqbayQ4qgcVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\mro\mro.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QJ/SIZk7LgzQ2TVn0C+fDJ404q8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Opcode\Opcode.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vcY7uBNdb1CC918pzA0qtpLTqks=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\PerlIO\encoding\encoding.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>V1z8Z1nDa2iVZ6xqpPmyRzuFuEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\PerlIO\scalar\scalar.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>A9LwYRVHYZfGRfDt33lFoxPk8X4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\PerlIO\via\via.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6EvVtWuwOjB6nTdHKW7qQ5F9qGQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\POSIX\POSIX.dll" size="82576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1Q9aPfbbvLU8NPGO/t6DAsQhuqE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\re\re.dll" size="184976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rrGXsi5YRMFEKs4BTBOJjgiNP8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\SDBM_File\SDBM_File.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vchseupDvG4nYXLtMTeiOJ/A+O4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Socket\Socket.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N0g+rjUqOS4KIyrtMvVuSYhcT7E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Storable\Storable.dll" size="70288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>L1xy3Idlx5OU5wWCJq5ai0U2V5Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Sys\Hostname\Hostname.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>66lPOdO+lejrERpzxSOf/7SQcIM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Text\Soundex\Soundex.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XXV03RChlSDcn8k3CbnsTBNtmFk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\threads\shared\shared.dll" size="45712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aLtX+/9nE2Ss22S5fK4hUXh9pn4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\threads\threads.dll" size="45712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yzPUatNZ7AzzwKL3hWiWAnOKj60=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Time\HiRes\HiRes.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Tq5YBk9LW1Pc3AWizI9HG5/tzb4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Time\Piece\Piece.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jXsgyF03jMxaSiEc1b8Vrh3mSlM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Unicode\Normalize\Normalize.dll" size="209552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LGiyjkyaydMlAz+SLOCtN+p7zgI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\version\vxs\vxs.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1VXr00Gqr5gKE5Sm+YQtsVvlS+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Win32\Win32.dll" size="49808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lLjwrVczc+zKYY4EoWq3sh6kSFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\auto\Win32API\File\File.dll" size="90768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>45JSaLlFPLFkmKeXeO9pIVF+OF0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\Unicode\Collate\allkeys.txt" size="1270011">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>txF0nNsl9ZbXmSeQGICdv0V0MVU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\Unicode\Collate\keys.txt" size="52838">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>v+fQ0KfuWr9q9KWZLnpDfmoTluY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\ArabicShaping.txt" size="12275">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LLI1vPGXXSOMxfvzNO3klTx7pTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\BidiMirroring.txt" size="24004">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>B/yQrNk5SmPPYZIleuDBQajucZQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\Blocks.txt" size="5857">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LVMKHGYFiR4a+vZgps/9tabRSB0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\CaseFolding.txt" size="64241">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>j8bq2N3hv72zlPuzTfwtcx+M8bs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\CompositionExclusions.txt" size="8086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6dzEh8bG9ontj1Opk/bQZEYmaO0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\EastAsianWidth.txt" size="708738">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QdR2aRi1LANh4LAuylEEdY/PgmA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\HangulSyllableType.txt" size="51026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Bs6zJkvrnjwl/PjJY4u9Jbxqnmg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\Index.txt" size="148121">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fy7soGPXzJL17ptKM0W5+lIkTlw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\Jamo.txt" size="3208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>S1q23KbcB6FUAonTBR2mZtOo5Ls=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\LineBreak.txt" size="763795">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fhAL1lCTJ1cdK1vSQwJdcg6BIlE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\NameAliases.txt" size="1084">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WNWmT9UWBf6ysxxqhtLDkxXwnak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\NamedSequences.txt" size="5820">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eObkta0qK1m8NTieg9OvX3JNPgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\NamedSqProv.txt" size="10879">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iNJAVl37PIG/38vFG9A3eH8L2B8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\NamesList.txt" size="938846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ISR2D9W2Okh/I9Ny/NnYWbNgaMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\NormalizationCorrections.txt" size="2033">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7CNTnMCcJnGU0MnUpEa4oNYoT28=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\PropertyAliases.txt" size="5199">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3QAKHz0NwyGoeL8t+ulcctfbobo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\PropList.txt" size="84950">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4YdwSEvOOaZD9bWwWKHbO5dlYbk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\PropValueAliases.txt" size="32063">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8hCwoFizJ8UjF34nq0ThMWNIRQk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\ReadMe.txt" size="435">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wCh1vsdA9wBGgm14HcFbhBLPbQw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\Scripts.txt" size="108760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>54rcd2zfVciHlOp7uj3nyPo1xS8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\SpecialCasing.txt" size="16309">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VQKGW8hmpsZZ2bDdDOrKs8rv+TA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\StandardizedVariants.txt" size="7445">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZRB+lw+sAWJsWUE7rRbhhJ3Gw8Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\lib\unicore\UnicodeData.txt" size="1117369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XdaxzEmB66Z29qlHa4U2LHHViNE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Access\Access.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gjSNnAlT/rTB7llSu54bag8M1rc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\CmdParms\CmdParms.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xE8A447jisfpV/oORpfZ17bRAdA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Command\Command.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>arwqEWlbNec9WUVPLoNiWz7lmBg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Connection\Connection.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>B91IWkWaJ4lMEngaxGLMaQQ2fzo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\ConnectionUtil\ConnectionUtil.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RWjfKITV8oAQfQN8hk17l77WQ4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Const\Const.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ovSfJfdQ5blwEAJv6PLfr07JDMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Directive\Directive.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N8iZFLTz5eYw5tu9ToAAM6fensM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Filter\Filter.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DkCFdeT16+0umvcPaGIr0bTuEvk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\FilterRec\FilterRec.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sAOeYwpc3mEhqFt7U8gG4U6Ch3o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\HookRun\HookRun.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PrRoz1HiOpG+crQwvXSS4lFbipA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Log\Log.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>i5dmQLUo59DVqdAExIIwh53l3Bs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Module\Module.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qkSrIgpEtF6HIPYvDVJWzTM5jx4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\MPM\MPM.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SHvtqv2z3R0r5clKrSY+1UwI60g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Process\Process.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3/zhOze8xvaHq1aJb1KlcRxL/C8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\RequestIO\RequestIO.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>01if5Ghvn98HL6T/3ySDAp9QeZs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\RequestRec\RequestRec.dll" size="49808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JUx7b9lnwx1ABDRiT4PPNZu9do4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\RequestUtil\RequestUtil.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CbnkicljKMNswMytGdUI+kPmEcA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Response\Response.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7Bp34+nEVF/kEQ9bVm1ghPLptgY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\ServerRec\ServerRec.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>r7lqauh9nxSa9SFGqh9Qwv2l/QQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\ServerUtil\ServerUtil.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cqSPpEgpEymabr2EsObtuEQq34g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\SubProcess\SubProcess.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>h+XsQXeukvZD5BM/G4pEAP9Wgvc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\SubRequest\SubRequest.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3V15JdjftppxEUa7WI4MlhGHLWY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\URI\URI.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MGjgf/LZNzxbvhbCGGLy4Rx4Zz0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Apache2\Util\Util.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>x05j1rU6A0fy4ei3Fiuyq+n4MjU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\APR.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ea3BkXBYW3hM3nvi7Sqg6WgdguU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Base64\Base64.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>x2ORoXqikpG7grtvRC99m/BNBlU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Brigade\Brigade.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sb6Lt5UCaKb1XPCgxLuUTVvAokQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Bucket\Bucket.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zCEjWYr2llOnY/WC9zAb/hrwBIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\BucketAlloc\BucketAlloc.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KMyXumRZgo13vT7xBBoKNMrxBHk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\BucketType\BucketType.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nrlr6qrWkMTjKxpxwOci1BACntE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Const\Const.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EuvP5mzUXU6TrFd8XMzujMYhfmo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Date\Date.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DI9GDkTS5rd0RpoGi2W8WzQDZpY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Error\Error.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CXgay6errSlOZo9qgZkfhPcaSOk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Finfo\Finfo.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UIE1hPD4Ya/QQZGjl7d4zlEVjUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\IpSubnet\IpSubnet.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ifRRTcUyBSW45iuWp49Mgyyxv5U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\OS\OS.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VxbUufRX8clVOsmyYDiUln6pgog=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\PerlIO\PerlIO.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>c+xi7J0wjy2tfcXRirz8A6fLIxQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Pool\Pool.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Cy+8IoXh+mmpgLcJgKyTWjOpZ4w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\Apache2\Apache2.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JPc3YGVJpEiy51RAjzj+PY3j/60=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\CGI\CGI.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IhKhrL999EwpFlTJhPh/sDrPurA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\Cookie\Cookie.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Df6x/Bd90M6OSpafwtYrDoIcBr0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\Error\Error.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CdDdYVxf1Dhr5shkxivPCy8EDto=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\Hook\Hook.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7C9DUyLiuv9QhWqxqKfAwLPgZIs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\Param\Param.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EFn9ehY6hSffH0SaLiCxXt4hCTs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\Parser\Parser.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0srT5AACaUVpneQy95QmQxRcA2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Request\Request.dll" size="49808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6GM7tlsqEUtC9fwAD85g/MeEC/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\SockAddr\SockAddr.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eTr1fDyN2//ZCMLIyBtlYM07hgU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Socket\Socket.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+n2/QziAWZ2lZsubJtOyzsVgrd4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Status\Status.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1MFph4FJf1pYlHMTa5mGjJbDtAU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\String\String.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rJA0QXVnmHfMzn3eNHl+wSoXg6o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Table\Table.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hYnjrsrDuRwMz1jG4h5q5lyG+7k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\ThreadMutex\ThreadMutex.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vsVALc+sdPQZTiKQlR+VVpjQLCg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\ThreadRWLock\ThreadRWLock.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uKzwFEQW3z4TRcuzSx6Fj10o/oI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\URI\URI.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DXKnwcMhF3/SlhoM31fCR/mTcl8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\Util\Util.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TKk4IIUwh1fQrYQNhanz3n5dvFk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\APR\UUID\UUID.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5ZCgS9jdpbqM/k7R7gsnevbIdsY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Crypt\SSLeay\libeay32.dll" size="1143440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fyvaYpxjFk1eyqKWlcCI0F3Y2ok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Crypt\SSLeay\SSLeay.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k4U8nLWuprunpVyf3xGgCmGgEoI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Crypt\SSLeay\ssleay32.dll" size="213648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OUAbEtsY+3t2tdfe63TSVc/S49k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\DBD\mysql\libmysql.dll" size="1695888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KMXVfyW7KPfwQSBElwY1mNfd2YY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\DBD\mysql\mysql.dll" size="94864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5t6w1mmB3fzsbuMaifiD0864hUI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\DBD\SQLite\SQLite.dll" size="434832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HkyfoiwC5BaUKgMBzd96ESbRqds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\DBI\DBI.dll" size="103056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QfIUyC30mju4+gC8VQIM268utbU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Digest\SHA1\SHA1.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RAQ4P66ciQfisvWVF4VcVz20axY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\FCGI\FCGI.dll" size="53904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6NAERlX7aa3Q5oHvvnYcVQBOcyw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\GDBM_File\GDBM_File.dll" size="53904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DxKIgzviRm8qGkjXCR9DpHlxydk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\HTML\Parser\Parser.dll" size="49808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K8UYaEH1sbGj4yzXQPETrJ390Q0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\ModPerl\Const\Const.dll" size="45712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>30FIvQsr/UBIuQfd+Cr7wBnemXQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\ModPerl\Global\Global.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>05kfDBjqRZWKND+Bsnz8DgHvWDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\ModPerl\Util\Util.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ud6SV3i3Z1i5WIhUR/9kS/WovgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Net\SSLeay\libeay32.dll" size="1143440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fyvaYpxjFk1eyqKWlcCI0F3Y2ok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Net\SSLeay\SSLeay.dll" size="197264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>duTs8/L3Su6GjBm83I7I4vWI44c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Net\SSLeay\ssleay32.dll" size="213648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OUAbEtsY+3t2tdfe63TSVc/S49k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Params\Util\Util.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p3pJManclAdHjCNc6/8q/yuy4C0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\ChangeNotify\ChangeNotify.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XLVF/Lw9hvKZ1ZMiAL+Lj8fNQCQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Clipboard\Clipboard.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1aJ3cMhprl06MfQ8fAPECwBqukQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Console\Console.dll" size="58000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RhTyqZYLJCgVULkT53YZvNjOobs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Event\Event.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xAncTjLmYrHSYhgEAPXzza7sdyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\EventLog\EventLog.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JungiJhs3shHkOaWPsnQ+dSWjVs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\File\File.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p3GfkhbPFl9vnTOJl/OCva1FkPI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\FileSecurity\FileSecurity.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8BuJ/voiHyIo+0km+X5fwOOZ56g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Internet\Internet.dll" size="58000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WIGiYaxjr7F/dsrcSwYo50As/P4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\IPC\IPC.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GwbGTA7rZS1QuN+qfVMKAj8MUhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Job\Job.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HjfmBitrNnxbxSfKAn/mjIbthgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Mutex\Mutex.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GAEYGTrpqWgyBHfWJLtx/FXGGno=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\NetAdmin\NetAdmin.dll" size="66192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Uz5cwKjQJLe0jAYgLUeX1GgDCXM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\NetResource\NetResource.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/sfqRvgTwlG7281QUtwgwqmwuMk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\ODBC\ODBC.dll" size="115344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZKWhH0qYlfIKDFcS5NLCvc5vwIY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\OLE\OLE.dll" size="98960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SE+mipBb94eRH/mILFySD0WBV2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\PerfLib\PerfLib.dll" size="41616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7G2t4OpZ83viKkboNVJp40IUvMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Pipe\Pipe.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7gU3vEmsvvH6kEw/qPfCJgHEMYY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Process\Process.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dr7MXDBPzL4ih1P325s32bNKmCA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Registry\Registry.dll" size="49808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N9S0FTqbGb/BKeH9myXfXPmdvhg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Semaphore\Semaphore.dll" size="29328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bbxCsYqrAE1EpfCh7LdSmlxpWrg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Service\Service.dll" size="33424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yjsTa9giPEtXTSBtArBwdUJ0GPs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Shortcut\Shortcut.dll" size="37520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SOMAa2DACB2VwXwc/cS4W7FjP8Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\Sound\Sound.dll" size="53904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KhvBxXtajhj5jfIhQ9Z8ogwgbNA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32\WinError\WinError.dll" size="94864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>E5JPF8/MzNIh7FWB4uoN3B1qyEk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\Win32API\Net\Net.dll" size="70288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BVv3z2wCvAz1uRZNtLfMGnICFp4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\auto\XML\Parser\Expat\Expat.dll" size="217744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nYVNsnzS8vNgX3Z+iPOBU4Ssxu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="library\perl\site\lib\ppm.xml" size="776" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nR+R0sNOrooJLFuZc/Q9dOYWbbk=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

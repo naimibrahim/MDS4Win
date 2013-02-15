@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MySQL_DumpSlow_For_Windows", "MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows.vbproj", "{7896E0DD-1737-41A6-824E-A900688040F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7896E0DD-1737-41A6-824E-A900688040F2}.Debug|x86.ActiveCfg = Debug|x86
+		{7896E0DD-1737-41A6-824E-A900688040F2}.Debug|x86.Build.0 = Debug|x86
+		{7896E0DD-1737-41A6-824E-A900688040F2}.Release|x86.ActiveCfg = Release|x86
+		{7896E0DD-1737-41A6-824E-A900688040F2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

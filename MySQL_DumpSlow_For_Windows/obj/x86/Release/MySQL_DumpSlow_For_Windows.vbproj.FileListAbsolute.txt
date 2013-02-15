@@ -1,0 +1,17 @@
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\bin\Release\MySQL_DumpSlow_For_Windows.exe
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\bin\Release\MySQL_DumpSlow_For_Windows.pdb
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\bin\Release\MySQL_DumpSlow_For_Windows.xml
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.Form1.resources
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.Resources.resources
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.exe
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.xml
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.pdb
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.Dialog1.resources
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.SplashScreen1.resources
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\bin\Release\MySQL_DumpSlow_For_Windows.exe.manifest
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\bin\Release\MySQL_DumpSlow_For_Windows.application
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.exe.manifest
+C:\Users\DBA\documents\visual studio 2010\Projects\MySQL_DumpSlow_For_Windows\MySQL_DumpSlow_For_Windows\obj\x86\Release\MySQL_DumpSlow_For_Windows.application
